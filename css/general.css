@@ -110,6 +110,9 @@ img {
     height: 40px;
     border-radius: 10px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-btn * {
     color: var(--white-color);
