@@ -3,15 +3,11 @@
 
 
 //! Close & Open Sidebar-Responsive
-const closeSidebar = document.querySelector(".sidebar .close");
 const sidebar = document.querySelector(".sidebar");
 const menuIcon = document.querySelector(".menu-icon");
 
-closeSidebar.addEventListener("click", function(){
-  sidebar.classList.remove("responsive")
-});
 menuIcon.addEventListener("click", function(){
-  sidebar.classList.add("responsive")
+  sidebar.classList.toggle("responsive");
 });
 
 
@@ -27,7 +23,7 @@ navLink.forEach(link => link.addEventListener('click', linkColor));
 
 //! =============== Banner =============== //
 $(document).ready(function(){
-    $(".top-content .owl-carousel").owlCarousel({
+    $(".user-insights .owl-carousel").owlCarousel({
         loop: true,
         items: 1,
         autoplay:true,

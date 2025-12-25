@@ -23,67 +23,69 @@
         <link rel="stylesheet" href="./css/general.css">
         <!-- Responsive -->
         <link rel="stylesheet" href="./css/responsive.css">
+        <!-- Arbic -->
+        <link rel="stylesheet" href="./css/ar.css">
+        <!-- English -->
+        <link rel="stylesheet" href="./css/en.css">
 </head>
 <body>
 
     <main class="layout">
         <!-- Sidebar -->
         <aside class="sidebar">
-            <div class="close">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-
             <div class="logo">
                 <a href="./">
                     <img src="./assets/images/logo.svg" alt="logo">
                 </a>
             </div>
 
-            <div class="sidebar-content">
-                <ul class="links">
-                    <li class="active-link">
-                        <a href="#"  data-name="Home">
-                            <img src="./assets/images/home.svg" alt="">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-name="Finance">
-                            <img src="./assets/images/finance.svg" alt="">
-                            <span>Finance</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-name="Team Incentives">
-                            <img src="./assets/images/team.svg" alt="">
-                            <span>Team Incentives</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-name="Hala Enablement">
-                            <img src="./assets/images/hala-enablement.svg" alt="">
-                            <span>Hala Enablement</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-name="Royal Circle">
-                            <img src="./assets/images/royal.svg" alt="">
-                            <span>Royal Circle</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" data-name="Profile">
-                            <img src="./assets/images/profile.svg" alt="">
-                            <span>Profile</span>
-                        </a>
-                    </li>
-                </ul>
+            <!-- <div class="sidebar-box"> -->
+                <div class="sidebar-content">
+                    <ul class="links">
+                        <li class="active-link">
+                            <a href="#"  data-name="Home">
+                                <img src="./assets/images/home.svg" alt="home-icon">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-name="Finance">
+                                <img src="./assets/images/finance.svg" alt="Finance-icon">
+                                <span>Finance</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-name="Team Incentives">
+                                <img src="./assets/images/team.svg" alt="Team-Incentives-icon">
+                                <span>Team Incentives</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-name="Hala Enablement">
+                                <img src="./assets/images/hala-enablement.svg" alt="Hala-Enablement-icon">
+                                <span>Hala Enablement</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-name="Royal Circle">
+                                <img src="./assets/images/royal.svg" alt="Royal-Circle-icon">
+                                <span>Royal Circle</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-name="Profile">
+                                <img src="./assets/images/profile.svg" alt="">
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                    </ul>
 
-                <div class="circle-1"></div>
-                <div class="circle-2"></div>
-                <div class="sqaure-1"></div>
-                <div class="sqaure-2"></div>
-            </div>
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="sqaure-1"></div>
+                    <div class="sqaure-2"></div>
+                </div>
+            <!-- </div> -->
 
             <button type="submit" class="logout">
                 <a href="#">
@@ -120,7 +122,7 @@
             </header>
 
             <section class="content">
-                <div class="top-content">
+                <div class="user-insights">
                     <div class="banner">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
@@ -128,7 +130,7 @@
                                     <img src="./assets/images/royal-circle.png" alt="">
                                 </div>
                                 <p>Compete with partners across all tiers.Check the live ranking and push for a guaranteed seat among the top 40.</p>
-                                <button class="main-btn">
+                                <button type="submit" class="main-btn">
                                     <span>View Rank</span>
                                 </button>
                             </div>
@@ -138,17 +140,106 @@
                                     <img src="./assets/images/royal-circle.png" alt="">
                                 </div>
                                 <p>Compete with partners across all tiers.Check the live ranking and push for a guaranteed seat among the top 40.</p>
-                                <button class="main-btn">
+                                <button type="submit" class="main-btn">
                                     <span>View Rank</span>
                                 </button>
                             </div>
                         </div>
                     </div>
 
+                    <!-- <div class="boxs">
+                        <div class="level-box advanced">
+                            <div class="content">
+                                <div class="image">
+                                    <img src="./assets/images/level-advanced.svg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <h3>Taqqadum</h3>
+                                    <div class="range-number">
+                                        <span>$250K</span>
+                                        <span>-</span>
+                                        <span>$749K</span>
+                                    </div>
+                                </div>
+
+                                <div class="achieve-box">
+                                    <div class="top-achieve">
+                                        <h4>Achieve</h4>
+                                        <p>75%</p>
+                                    </div>
+                                    <div class="progress-box">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="level-box top">
+                            <div class="content">
+                                <div class="image">
+                                    <img src="./assets/images/level-top.svg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <h3>Taqqadum</h3>
+                                    <div class="range-number">
+                                        <span>$250K</span>
+                                        <span>-</span>
+                                        <span>$749K</span>
+                                    </div>
+                                </div>
+
+                                <div class="achieve-box">
+                                    <div class="top-achieve">
+                                        <h4>Achieve</h4>
+                                        <p>75%</p>
+                                    </div>
+                                    <div class="progress-box">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="level-box excellence">
+                            <div class="content">
+                                <div class="image">
+                                    <img src="./assets/images/level-excellence.svg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <h3>Taqqadum</h3>
+                                    <div class="range-number">
+                                        <span>$250K</span>
+                                        <span>-</span>
+                                        <span>$749K</span>
+                                    </div>
+                                </div>
+
+                                <div class="achieve-box">
+                                    <div class="top-achieve">
+                                        <h4>Achieve</h4>
+                                        <p>75%</p>
+                                    </div>
+                                    <div class="progress-box">
+                                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
                     <div class="level-box">
                         <div class="content">
                             <div class="image">
-                                <img src="./assets/images/level-img.svg" alt="">
+                                <img src="./assets/images/level-advanced.svg" alt="">
                             </div>
 
                             <div class="text">
@@ -167,7 +258,7 @@
                                 </div>
                                 <div class="progress-box">
                                     <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 25%"></div>
+                                        <div class="progress-bar" style="width: 75%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +266,7 @@
                     </div>
                 </div>
 
-                <div class="middle-content">
+                <div class="cards">
                     <div class="row row-cards g-4">
                         <div class="col-12 col-sm-6 col-lg-4 col-xl-2">
                             <div class="my-card">
@@ -311,7 +402,7 @@
                     </div>
                 </div>
 
-                <div class="bottom-content">
+                <div class="performance-analytics">
                     <div class="row g-4">
                         <div class="col-12 col-lg-7">
                             <div class="box-chart">
@@ -342,6 +433,7 @@
                                                 <th>Achievement</th>
                                             </tr>
                                         </thead>
+
                                         <tbody>
                                             <tr>
                                                 <td>
@@ -368,6 +460,78 @@
                                                 <td>
                                                     <div class="name-cell">
                                                         <img src="./assets/images/table-name-2.svg" alt="">
+                                                        <p>Global Technologies</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span>Competitor</span>
+                                                </td>
+                                                <td>
+                                                    <span>854.16%</span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <img src="./assets/images/Top_3.svg" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="name-cell">
+                                                        <img src="./assets/images/table-name-3.svg" alt="">
+                                                        <p>Global Technologies</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span>Competitor</span>
+                                                </td>
+                                                <td>
+                                                    <span>854.16%</span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <img src="./assets/images/Top_3.svg" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="name-cell">
+                                                        <img src="./assets/images/table-name-3.svg" alt="">
+                                                        <p>Global Technologies</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span>Competitor</span>
+                                                </td>
+                                                <td>
+                                                    <span>854.16%</span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <img src="./assets/images/Top_3.svg" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="name-cell">
+                                                        <img src="./assets/images/table-name-3.svg" alt="">
+                                                        <p>Global Technologies</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span>Competitor</span>
+                                                </td>
+                                                <td>
+                                                    <span>854.16%</span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <img src="./assets/images/Top_3.svg" alt="">
+                                                </td>
+                                                <td>
+                                                    <div class="name-cell">
+                                                        <img src="./assets/images/table-name-3.svg" alt="">
                                                         <p>Global Technologies</p>
                                                     </div>
                                                 </td>
@@ -444,6 +608,5 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- index js -->
     <script src="./js/index.js"></script>
-
 </body>
 </html>

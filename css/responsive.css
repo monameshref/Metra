@@ -1,17 +1,28 @@
 
 @media (max-width: 991px) {
-    .content .top-content .row {
+    /* .content .user-insights .row {
         gap: 50px;
-    }
+    } */
     .middle-content .row-cards {
         padding-top: 40px;
     }
-
-    .content .top-content {
-        gap: 50px;
+    .content .user-insights {
+        gap: 30px;
     }
-    .content .top-content .banner {
+    .content .user-insights .banner {
         width: 100%;
+    }
+    .content .level-box::before {
+        transform: rotate(2deg);
+    }
+    .content .level-box::after {
+        transform: rotate(-2deg);
+    }
+    .content .level-box:hover::before {
+        transform: rotate(-2deg);
+    }
+    .content .level-box:hover::after {
+        transform: rotate(2deg);
     }
 }
 @media (max-width: 575px) {
@@ -37,11 +48,11 @@
         width: 15px;
         height: 15px;
     }
-    .content .top-content .item .image {
+    .content .user-insights .item .image {
         width: 200px;
         height: 50px;
     }
-    .content .top-content .item p {
+    .content .user-insights .item p {
         font-size: 10px;
     }
     .my-card .text > span {
